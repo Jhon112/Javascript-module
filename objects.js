@@ -101,20 +101,20 @@
 // console.log(compose(greet, yell));
 
 
-var maria = {
-    nombre: "Terah",
-    edad: 32,
-    altura: 1.70,
-    peso: 60,
-    colorPelo: "cafe",
-    hijos: {
-        german: {
-            nombre: "German"
-        }
-    },
-    bmi: function () {
-            return this.peso / (this.altura * this.altura)
-    },
-}
+// var maria = {
+//     nombre: "Terah",
+//     edad: 32,
+//     altura: 1.70,
+//     peso: 60,
+//     colorPelo: "cafe",
+//     hijos: {
+//         german: {
+//             nombre: "German"
+//         }
+//     },
+//     bmi: function () {
+//             return this.peso / (this.altura * this.altura)
+//     },
+// }
 
-console.log(maria.bmi())
+// console.log(maria.bmi())

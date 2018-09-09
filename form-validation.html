@@ -1,0 +1,21 @@
+<!-- escriba una funcion que al momento de salir del input valide si este esta vacio, en caso tal hacer que el boton submit quede deshabilitado -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form action="/create" method="POST">
+        First name:<br>
+        <input type="text" name="firstname" value="" class="form-field" onblur="empty(this)"><br>
+        Last name:<br>
+<input type="text" name="lastname" value="" class="form-field" onblur="empty(this)"><br><br>
+        <input type="submit" value="Submit" id="btn">
+    </form>
+
+    <script src="jsstyle.js"></script>
+</body>
+</html>
